@@ -1,1 +1,48 @@
-/* Reset/opiniões leves, tipografia global, variáveis/tokens, utilitários */
+/* base.css */
+body{
+    font-family: var(--fonte-principal);
+    color: #333333;
+    background-color: azure;
+}
+
+main {
+    padding: 2.5rem 0 2.5rem;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.btn {
+    font-size: 1.24rem;
+    width: 161px;
+    height: 48px;
+    border-radius: 25px;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 10px 5px;
+    transition: background-color 0.3s, border 0.3s;
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid #ffffff;
+    line-height: 23px; /*eu adc pois não tava ficando igual*/
+}
+
+.btn-filled {
+    background-color: #FFFFFF;
+    color: #6329A2;
+    line-height: 23px;  /*eu adc pois não tava ficando igual*/
+}
+
+.btn:hover {
+    background-color: #6329A2;
+    color: #FFFFFF;
+    border-color: #6329A2;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 1280px) {
+    main {
+        padding: 0.625rem;
+    }
+}
