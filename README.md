@@ -37,7 +37,9 @@ The project is organized into the following folders:
         /components: Contains the CSS for each component of the website (header, footer, etc.).
 
     /images: Contains all the images used in the project, such as logos, banners, and product images.
+
     /js: Contains the JavaScript files (currently empty).
+
     index.html: The main HTML file of the website.
     README.md: This file.
 
@@ -45,10 +47,10 @@ The project is organized into the following folders:
 
 To run this project locally, simply open the index.html file in your web browser.
 
-<!-- # Clone the repository -->
-git clone https://github.com/devemdobro/ecommerce-syntaxwear.git
+    # Clone the repository
+        git clone https://github.com/devemdobro/ecommerce-syntaxwear.git
 
-<!-- # Navigate to the project directory -->
-cd ecommerce-syntaxwear
+    # Navigate to the project directory
+        cd ecommerce-syntaxwear
 
-<!-- # Open index.html in your browser -->
+    # Open index.html in your browser
